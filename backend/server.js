@@ -19,6 +19,12 @@ app.use(morgan('dev'));
 // Routes
 app.use('/api/crimes', crimeRoutes);
 
+// Data Simulation for Lite Deployment (Production)
+if (process.env.NODE_ENV === 'production' || process.env.SIMULATE === 'true') {
+  const simulateData = require('./utils/dataSimulator');
+  simulateData();
+}
+
 // Basic Route
 app.get('/', (req, res) => {
   res.json({ message: 'Welcome to CrimeLens India API' });
