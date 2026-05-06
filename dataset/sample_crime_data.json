@@ -1,0 +1,57 @@
+[
+  {
+    "crime_id": "FIR-2023-98213",
+    "crime_type": "Theft",
+    "state": "Maharashtra",
+    "city": "Mumbai",
+    "date": "2023-10-25T14:30:00Z",
+    "severity": "Medium",
+    "latitude": "19.0760",
+    "longitude": "72.8777",
+    "resolved": false
+  },
+  {
+    "crime_id": "FIR-2023-98214",
+    "crime_type": "Assault",
+    "state": "Delhi",
+    "city": "New Delhi",
+    "date": "2023-10-26T02:15:00Z",
+    "severity": "High",
+    "latitude": "28.6139",
+    "longitude": "77.2090",
+    "resolved": true
+  },
+  {
+    "crime_id": "FIR-2023-98215",
+    "crime_type": "Cybercrime",
+    "state": "Karnataka",
+    "city": "Bangalore",
+    "date": "2023-10-26T09:45:00Z",
+    "severity": "High",
+    "latitude": "12.9716",
+    "longitude": "77.5946",
+    "resolved": false
+  },
+  {
+    "crime_id": "FIR-2023-98216",
+    "crime_type": "Vandalism",
+    "state": "Tamil Nadu",
+    "city": "Chennai",
+    "date": "2023-10-27T22:10:00Z",
+    "severity": "Low",
+    "latitude": "13.0827",
+    "longitude": "80.2707",
+    "resolved": true
+  },
+  {
+    "crime_id": "FIR-2023-98217",
+    "crime_type": "Robbery",
+    "state": "West Bengal",
+    "city": "Kolkata",
+    "date": "2023-10-28T19:20:00Z",
+    "severity": "High",
+    "latitude": "22.5726",
+    "longitude": "88.3639",
+    "resolved": false
+  }
+]
